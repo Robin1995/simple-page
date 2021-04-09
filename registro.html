@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__img" src="./assets/img/logo.png" alt="Logo...">
+    </header>
+    <section class="registro">
+        <section class="registro__container">
+            <h2>Registrate</h2>
+            <form class="registro__container--form">
+                <input class="input input-registro" type="text" placeholder="Nombre" required>
+                <input class="input input-registro" type="text" placeholder="Apellido">
+                <input class="input input-registro" type="email" placeholder="Correo" required>
+                <input class="input input-registro" type="number" maxlength="10" #input required
+                    oninput="this.value=this.value.slice(0,10)" placeholder="Telefono">
+                <div class="registro__container--terminos-condiciones">
+                    <label>
+                        Al Registrate estoy de acuerdo con los
+                    </label>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <button class="button" type="submit">Aceptar</button>
+                <div class="registro__container--inicia-sesion">
+                    <a href="./login.html">Iniciar sesión</a>
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>
