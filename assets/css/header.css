@@ -17,9 +17,10 @@ body {
 }
 
 .header__img {
-  width: 200px;
+  width: 100px;
   background-color: #00dbde;
-  margin: 10px 0 0 5px;
+  height: 70px;
+  object-fit: cover;
 }
 
 .header__menu {
